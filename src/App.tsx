@@ -4,12 +4,12 @@ function App() {
   return (
     <>
       <a href="#main-content" className="skip-link">
-        Ana icerige atla
+        Ana içeriğe atla
       </a>
 
       <header>
+        <p className="site-title">Berfin Aslan</p>
         <nav aria-label="Ana navigasyon">
-          <h1>Berfin Aslan - Kisisel Portfolyo</h1>
           <ul>
             <li><a href="#hakkimda">Hakkımda</a></li>
             <li><a href="#projeler">Projeler</a></li>
@@ -21,32 +21,70 @@ function App() {
       <main id="main-content">
         <section id="hakkimda">
           <h2>Hakkımda</h2>
-          <figure>
-            <img
-              src="/profil.jpg"
-              alt="Berfin Aslan'in vesikalik fotografi"
-            />
-            <figcaption>Berfin Aslan</figcaption>
-          </figure>
-          <ul>
-            <li>HTML / CSS / JavaScript</li>
-            <li>React</li>
-            <li>TypeScript</li>
-          </ul>
+          <div className="about-content">
+            <figure>
+              <img
+                src="/profil.jpg"
+                alt="Berfin Aslan'ın vesikalık fotoğrafı"
+              />
+              <figcaption>Berfin Aslan</figcaption>
+            </figure>
+            <div>
+              <p>Web geliştirme ve modern frontend teknolojileri ile ilgileniyorum.</p>
+              <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section id="projeler">
           <h2>Projelerim</h2>
-          <article>
-            <h3>Web Lab Projesi</h3>
-            <p>Semantik HTML ve erisilebilirlik uzerine tek sayfalik portfolyo.</p>
-            <p><strong>Teknolojiler:</strong> React, Vite, TypeScript</p>
-          </article>
-          <article>
-            <h3>Ikinci Proje</h3>
-            <p>Ornek proje aciklamasi. Buraya kendi projenizi ekleyebilirsiniz.</p>
-            <p><strong>Teknolojiler:</strong> HTML, CSS, JavaScript</p>
-          </article>
+          <div className="project-grid">
+            <article className="project-card">
+              <img
+                src="https://placehold.co/600x200/1e3a8a/fff?text=Web+Lab"
+                alt="Web Lab projesi ekran görüntüsü"
+              />
+              <h3>Web Lab Projesi</h3>
+              <p>Semantik HTML ve erişilebilirlik üzerine tek sayfalık portföy.</p>
+              <ul className="skill-tags" role="list">
+                <li>React</li>
+                <li>Vite</li>
+                <li>TypeScript</li>
+              </ul>
+            </article>
+            <article className="project-card">
+              <img
+                src="https://placehold.co/600x200/2563eb/fff?text=Ikinci+Proje"
+                alt="İkinci proje arayüzü"
+              />
+              <h3>İkinci Proje</h3>
+              <p>Örnek proje açıklaması. Buraya kendi projenizi ekleyebilirsiniz.</p>
+              <ul className="skill-tags" role="list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+            <article className="project-card">
+              <img
+                src="https://placehold.co/600x200/7c3aed/fff?text=Ucuncu+Proje"
+                alt="Üçüncü proje görünümü"
+              />
+              <h3>Üçüncü Proje</h3>
+              <p>Responsive tasarım ve modern CSS ile geliştirilmiş örnek uygulama.</p>
+              <ul className="skill-tags" role="list">
+                <li>Flexbox</li>
+                <li>Grid</li>
+              </ul>
+            </article>
+          </div>
         </section>
 
         <section id="iletisim">
