@@ -26,6 +26,9 @@ function App() {
               <img
                 src="/profil.jpg"
                 alt="Berfin Aslan'ın vesikalık fotoğrafı"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = 'https://placehold.co/200x200/1e3a8a/ffffff?text=Profil';
+                }}
               />
               <figcaption>Berfin Aslan</figcaption>
             </figure>
