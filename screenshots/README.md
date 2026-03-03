@@ -1,7 +1,6 @@
-Bu klasöre LAB-3 teslimi için aşağıdaki ekran görüntüleri eklenmelidir:
+Bu klasöre 3 ekran görüntüsü koy:
+- screenshot-mobile.png (375px)
+- screenshot-tablet.png (768px)
+- screenshot-desktop.png (1280px)
 
-- **screenshot-mobile.png** – Mobil (375px) tam sayfa
-- **screenshot-tablet.png** – Tablet (768px) tam sayfa  
-- **screenshot-desktop.png** – Masaüstü (1280px) tam sayfa
-
-Chrome DevTools → Toggle device toolbar (Ctrl+Shift+M) → Genişlik ayarla → Ctrl+Shift+P → "Capture full size screenshot"
+Chrome: F12 → üstte telefon ikonu (veya Ctrl+Shift+M) → genişlik kutusuna 375 / 768 / 1280 yaz → Ctrl+Shift+P → "Capture full size screenshot" → kaydedilen dosyayı bu klasöre taşı ve yukarıdaki isimle yeniden adlandır.
