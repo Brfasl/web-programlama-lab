@@ -1,23 +1,46 @@
-# Web LAB-1
+# Web Tasarımı ve Programlama — LAB-1'den LAB-4'e
 
-## Hakkinda
-Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda Vite + React + TypeScript kullanilarak olusturulmustur.
+## Hakkında
+Bu proje, Web Tasarımı ve Programlama dersi kapsamında Vite + React + TypeScript kullanılarak geliştirilmiş kişisel portföy sitesidir.
 
-## Gelistirici
-**Ad Soyad:** Berfin Aslan
-**Ogrenci No:** 225541068
+## Geliştirici
+**Ad Soyad:** Berfin Aslan  
+**Öğrenci No:** 225541068
 
-## Kullanilan Teknolojiler
-- React 18
-- TypeScript
-- Vite
+## Laboratuvar İçerikleri
+
+| Lab | Konu | Teknoloji |
+|-----|------|-----------|
+| LAB-1 | Geliştirme ortamı kurulumu | Vite, React, TypeScript |
+| LAB-2 | Semantik HTML ve erişilebilirlik | HTML5, ARIA |
+| LAB-3 | Responsive tasarım | CSS Flexbox, Grid, Media Query |
+| LAB-4 | Utility-first CSS ve component sistemi | Tailwind CSS v4 |
+
+## LAB-4 Özellikleri
+- **Tailwind CSS v4** entegrasyonu (`@theme` ile özel token'lar)
+- **Dark mode** desteği (toggle butonuyla)
+- **Responsive tasarım** (mobil → tablet → masaüstü)
+- **Component kütüphanesi:**
+  - `Button` — 4 renk varyantı × 3 boyut
+  - `Input` — normal, hatalı, help text, disabled
+  - `Card` — elevated, outlined, filled
+  - `Alert` — info, success, warning, error (kapatılabilir)
+- **UI Kit sayfası** — 16+ varyant tek sayfada
 
 ## Kurulum
-`npm install`
+```bash
+npm install
+```
 
-## Calistirma
-`npm run dev`
+## Çalıştırma
+```bash
+npm run dev
+```
 
-## Ekran Goruntusu
+Uygulama `http://localhost:5173` adresinde açılır.
 
-Ekran Resmi 2026-03-03 23.50.44.png
+## Kullanılan Teknolojiler
+- React 19
+- TypeScript
+- Vite 5
+- Tailwind CSS v4
